@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+/* Shared Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", serif;
+}
+body {
+  max-width: 1440px;
+}
+img {
+  object-fit: cover;
+}
+:root {
+  --primary-color: #abef5f;
+}
+/* Shared Styles */
+/* Header Related STyles */
+header {
+  background: linear-gradient(0deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+}
+.nav-icon {
+  background-color: var(--primary-color);
+  padding: 7px;
+  border-radius: 50%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  margin: 0 auto;
+  padding: 35px 0;
+}
+.nav-items li {
+  list-style: none;
+}
+.nav-items li a {
+  text-decoration: none;
+  color: #212121;
+  opacity: 0.8;
+  font-weight: 700;
+}
+.nav-items li a:hover {
+  opacity: 1;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.nav-btn img {
+  background-color: #212121;
+  border-radius: 50%;
+  padding: 8px;
+}
+.nav-end {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.nav-btn {
+  background-color: var(--primary-color);
+  padding: 8px 20px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  display: flex;
+  flex-direction: row-reverse;
+  transition: all 0.5s;
+}
+.nav-btn img {
+  width: 32px;
+  height: 32px;
+}
+.logo h2 {
+  font-weight: 800px;
+}
+.btn-text {
+  font-weight: 800;
+}
+.nav-btn:hover {
+  scale: 0.9;
+}
+.nav-end i:hover {
+  scale: 0.9;
+}
+.nav-end i {
+  transition: all 0.5s;
+}
+/* Header Related STyles */
