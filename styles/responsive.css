@@ -1,4 +1,5 @@
 @media only screen and (max-width: 640px) {
+  /* Nav related styles */
   nav {
     flex-direction: column;
     gap: 30px;
@@ -11,4 +12,45 @@
     flex-direction: column;
     gap: 15px;
   }
+  /* Nav related styles */
+  /* Hero related styles */
+  .hero-container {
+    width: 100%;
+  }
+  .banner-title {
+    font-size: 30px;
+  }
+  .banner {
+    width: 100%;
+  }
+  .text-container {
+    width: 100%;
+  }
+  .banner-des {
+    padding: 15px 0;
+  }
+  /* Hero related styles */
+  /* Design related styles */
+  .design-container {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .design-image-container img {
+    width: 100%;
+  }
+  .design-title {
+    font-size: 30px;
+  }
+  .vector-arrow {
+    position: relative;
+    bottom: 630px;
+    z-index: 1;
+    left: 200px;
+  }
+  /* Design related styles */
+  /* Design related styles */
+  .design-container {
+    flex-direction: column;
+  }
+  /* Design related styles */
 }

@@ -16,6 +16,13 @@ img {
 :root {
   --primary-color: #abef5f;
 }
+button:hover {
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+
 /* Shared Styles */
 /* Header Related STyles */
 header {
@@ -101,3 +108,169 @@ nav {
   transition: all 0.5s;
 }
 /* Header Related STyles */
+/* Hero related styles */
+.hero-container {
+  width: 85%;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  align-items: center;
+}
+.text-container {
+  text-align: center;
+}
+.banner-title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 800;
+  color: #212121;
+}
+.banner-des {
+  padding: 10px 0;
+  color: #212121;
+  opacity: 0.8;
+  width: 80%;
+  margin: 0 auto;
+}
+.hero-btn {
+  background: rgba(171, 239, 95, 0.5);
+  padding: 15px 24px;
+  border: none;
+  outline: none;
+  transition: all 0.5s;
+  border-radius: 30px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 8px;
+  margin: 0 auto;
+}
+.hero-btn:hover {
+  scale: 0.9;
+}
+/* Hero related styles */
+
+/* Design related styles */
+.design-container {
+  display: flex;
+  align-items: center;
+  margin: 0px auto;
+  width: 85%;
+  padding: 50px 0;
+}
+.about-us-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  outline: none;
+  background: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: all 0.5s;
+}
+.about-us-btn:hover {
+  cursor: pointer;
+}
+.design-title {
+  font-size: 35px;
+  font-weight: 900;
+  padding: 20px 0;
+}
+.design-des {
+  opacity: 0.6;
+  padding-bottom: 15px;
+}
+.design-card {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin: 25px 0;
+}
+.design-card-des {
+  max-width: 350px;
+  padding: 10px 0;
+  color: #212121;
+  opacity: 0.7;
+}
+.design-container-parent {
+  background-color: #f4f4f4;
+  position: relative;
+  margin: 50px 0;
+}
+.vector-arrow {
+  position: absolute;
+  top: 3%;
+  left: 3%;
+}
+
+/* Design related styles */
+/* Counter related styles  */
+.counter-container {
+  width: 85%;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fa-regular {
+  font-size: 50px;
+  opacity: 0.6;
+}
+.counter-card-title {
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  padding: 5px 0;
+  opacity: 0.7;
+}
+.counter-card-des {
+  color: #212121;
+  opacity: 0.6;
+  font-weight: 700;
+}
+.counter-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: white;
+}
+/* Counter related styles  */
+
+/* Work process related styles */
+.work-process-container {
+  width: 85%;
+  margin: 50px auto;
+}
+.work-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.how-we-work-btn {
+  border: none;
+  outline: none;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+.how-we-work-btn i {
+  margin-right: 5px;
+}
+.work-content-title {
+  font-weight: bold;
+  color: #212121;
+  font-size: 40px;
+}
+.work-content-des {
+  max-width: 650px;
+  text-align: center;
+  margin: 0 auto;
+  opacity: 0.6;
+}
+/* Work process related styles */
