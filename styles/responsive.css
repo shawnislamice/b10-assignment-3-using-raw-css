@@ -53,4 +53,17 @@
     flex-direction: column;
   }
   /* Design related styles */
+  /* Work Content card related styles */
+  .work-content-card-container {
+    flex-direction: column;
+  }
+  .counter-container {
+    flex-direction: column;
+    
+  }
+  .work-content-title{
+    text-align: center;
+    font-size: 25px;
+  }
+  /* Work Content card related styles */
 }

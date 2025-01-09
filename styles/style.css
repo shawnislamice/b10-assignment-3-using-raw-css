@@ -273,4 +273,44 @@ nav {
   margin: 0 auto;
   opacity: 0.6;
 }
+.work-content-card {
+  background-color: #e7c1d3;
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+}
+.work-content-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+  padding: 50px 0;
+}
+.work-2 {
+  background-color: #efda6e;
+}
+.work-3 {
+  background-color: #a4dac3;
+}
+.work-4 {
+  background-color: #77aaea;
+}
+.work-content-card > h1 {
+  font-size: 20px;
+  padding: 10px 0;
+  font-weight: 700;
+}
+.work-content-card p {
+  opacity: 0.6;
+  font-weight: 600;
+}
 /* Work process related styles */
+/* Latest Portfolio container related styles */
+.latest-portfolio-container {
+  width: 85%;
+  margin: 50px auto;
+}
+/* Latest Portfolio container related styles */
+/* Read our architect container styles */
+
+/* Read our architect container styles */
